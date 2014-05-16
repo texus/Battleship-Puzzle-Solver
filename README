@@ -1,0 +1,25 @@
+Battleship Puzzle Solver
+========================
+
+This program was a university assignment.
+
+The program is not suitable to solve difficult puzzles within reasonable time.
+- A completely empty 6x6 puzzle can be solved in just a few seconds
+- An 8x8 puzzle with 20 out of the 64 cells filled in will take around 5 seconds.
+- An 8x8 puzzle with 15 out of the 64 cells filled in will take around 35 seconds.
+
+
+Run
+---
+
+These instructions are for linux only, but the program will also work under different operating systems.
+
+Start your prolog interpreter
+    swipl
+
+Load the code
+    ?- ['Battleship.pl'].
+
+You can now also load and run the examples
+    ?- ['Examples.pl'].
+    ?- example2.
